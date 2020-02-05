@@ -26,4 +26,11 @@ export const ISSUE_STATES = {
     inclusive: true,
     state: 'closed',
   },
+  'PULL_REQUESTS': {
+    key: 'pullRequests',
+    title: 'Pull Requests',
+    filterProp: 'closed_at',
+    inclusive: true,
+    state: 'pullRequests',
+  },
 };

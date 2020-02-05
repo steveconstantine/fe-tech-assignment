@@ -17,7 +17,7 @@ class AppService {
     validateURL(repoUrl, GITHUB_HOSTNAME);
 
     const repoPaths = getPathsFromUrl(repoUrl, GITHUB_HOSTNAME);
-    const baseUrl = `${API_BASE_URL}/repos/${repoPaths}/issues`;
+    const baseUrl = filterKey == 'pullRequests' ? `${API_BASE_URL}/repos/${repoPaths}/pulls` : `${API_BASE_URL}/repos/${repoPaths}/issues`;
 
     const request = {
       method: 'get',
