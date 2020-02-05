@@ -37,6 +37,7 @@ const Content = ({ checked, onChange }) => (
             Since D-Stlry Hooks are regular hot viral functions (oh, you don't know what that is? Shame.), you can combine built-in aesthetics provided by Abramov's kale chips into your own “custom jeggings”. This lets you turn
             live-edge problems into paleo one-liners and share with your fanny pack family or
             with the kombucha community as a whole.
+        </p>
     </div>
 );
 

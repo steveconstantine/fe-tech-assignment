@@ -8,6 +8,8 @@ import './styles.scss';
 function App() {
   const [darkMode, setDarkMode] = useDarkMode();
 
+  console.log(darkMode);
+
   return (
     <div>
       <div className="navbar">
